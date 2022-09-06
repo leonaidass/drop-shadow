@@ -52,7 +52,7 @@ body {
 }
 .container-img {
   display: flex;
-  gap: 45px;
+  gap: 20px;
 }
 .box {
   width: 300px;
@@ -67,7 +67,7 @@ body {
 }
 p{
     font-family: 'Kanit', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     text-align: center;
     color: #4e49e0;
 }
@@ -87,4 +87,10 @@ h1{
 }
 span{
     color: #d7eb3e;
+}
+
+.shadow,.filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
